@@ -1,0 +1,77 @@
+.header__logo img{
+    max-width: 64px;
+}
+
+.article__title.h1 {
+    margin-right: 0 !important;
+}
+
+/*.article__content, .story__info {
+    color: #000;
+}*/
+
+.section-pb.community {
+    padding-top: 128px;
+}
+
+.section-pb.community img{
+    border-radius: 32px;
+}
+
+
+.quality__item {
+    
+    -ms-flex: 0 0 calc(33% - 32px);
+    flex: 0 0 calc(33% - 32px);
+    width: calc(33% - 32px);
+    margin: 0 16px;
+}
+
+.footer__logo {
+    width: 64px !important;
+}
+
+.footer__logo > img{
+    width: 64px !important;
+}
+
+button a, button a:visited, button a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover, button:hover a {
+    color: #fff;
+}
+
+body.dark button a:hover, body.dark button:hover a, body.dark button a {
+    color: #fff;
+}
+
+.clients__list {
+    align-items: center;
+}
+
+#mailchimp {
+    background: #FCFCFD;
+    color: black;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#mailchimp input {
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.catalog__list img {
+    aspect-ratio: 3 / 2;
+}
+
+.main.bg {
+    background: url('../img/planet.jpg') center center;
+}
+
+.section-bg.book {
+    background: url('../img/call-bg.jpg') center center;
+}
